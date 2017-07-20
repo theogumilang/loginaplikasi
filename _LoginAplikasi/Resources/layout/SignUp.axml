@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#2F4F4F"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/gramed" />
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:hint="Username"
+            android:padding="5dp" />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:padding="5dp"
+            android:hint="Email" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:padding="5dp"
+            android:hint="Password"
+            android:inputType="textPassword" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:padding="5dp"
+            android:hint="Konfirmasi Password"
+            android:inputType="textPassword" />
+        <Button
+            android:id="@+id/login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password"
+            android:layout_marginTop="10dp"
+            android:background="#696969"
+            android:text="SignUp"
+            android:textColor="@android:color/white" />
+        <Button
+            android:id="@+id/login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password"
+            android:layout_marginTop="10dp"
+            android:background="#DC143C"
+            android:text="Cancel"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</RelativeLayout>
